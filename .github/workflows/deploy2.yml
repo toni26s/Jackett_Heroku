@@ -1,4 +1,4 @@
-name: Deploy Jackett to Heroku (EU Region)
+name: Deploy Jackett to Heroku (US Region)
 
 on:
   schedule:
@@ -18,4 +18,4 @@ jobs:
           usedocker: true
           docker_heroku_process_type: web
           stack: "container"
-          region: "eu"
+          region: "us"
