@@ -1,0 +1,22 @@
+
+{
+  "name": "Jacket On Heroku",
+  "logo": "https://nzbusenet.com/wp-content/uploads/2017/04/jackett-logo.png",
+  "description": "Jackett on heroku with saved config",
+  "repository": "https://github.com/toni26s/Jackett_Heroku",
+  "keywords": ["docker", "jackett", "rss", "heroku", "cloudflare"],
+  "stack": "container",
+  "success_url": "/",
+  "env": {
+    "ENABLE_AUTH": {
+      "description": "Jackett Admin Password not required",
+      "value": "admin",
+      "required": false
+    },
+    "FLARE": {
+      "description": "Cloudflare Verify Url",
+      "value": "added_in_config",
+      "required": false
+    }
+  }
+}
