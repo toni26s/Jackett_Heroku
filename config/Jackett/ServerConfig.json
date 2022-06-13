@@ -11,7 +11,7 @@
   "CacheEnabled": true,
   "CacheTtl": 2100,
   "CacheMaxResultsPerIndexer": 1000,
-  "FlareSolverrUrl": "",
+  "FlareSolverrUrl": "https://flaresolverrr.herokuapp.com/",
   "OmdbApiKey": "",
   "OmdbApiUrl": "",
   "ProxyType": -1,
